@@ -1,14 +1,22 @@
 @media screen and (max-width: 915px){
     
+   body {
+       padding: 15px 0px 15px 0px;
+   }
+
     header{
-        flex-direction: column;
+        flex-direction: column;       
 
     }
     
+    
     main {
+        min-width: 50px;
         flex-direction: column;
         margin-top: 10px;
         text-align: center;
+        align-self: center;
+        padding: 20px 0px 20px 0px;
 
     }
     p {
@@ -16,16 +24,20 @@
     }
 
     h2{
-        font-size: 38px;
+        font-size: 27px;
+        
         
     }
     form{
         margin: auto;
         width: 470px;
+        
     
     }
     input {
         align-self: center;
+        
+        
         
     }
 
@@ -34,5 +46,6 @@
     }
     ul {
         text-align: center;
+        min-width: 50px;
     }
 }
